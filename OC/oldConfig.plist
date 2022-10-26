@@ -179,7 +179,7 @@
                     <key>BundlePath</key>
                     <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.3 | BrcmFirmwareData.kext</string>
+                    <string>V2.6.4 | BrcmFirmwareData.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -197,7 +197,7 @@
                     <key>BundlePath</key>
                     <string>BrcmFirmwareRepo.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.3 | BrcmFirmwareRepo.kext</string>
+                    <string>V2.6.4 | BrcmFirmwareRepo.kext</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -215,7 +215,7 @@
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.3 | BrcmPatchRAM.kext</string>
+                    <string>V2.6.4 | BrcmPatchRAM.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -233,7 +233,7 @@
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM2.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.3 | BrcmPatchRAM2.kext</string>
+                    <string>V2.6.4 | BrcmPatchRAM2.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -251,7 +251,7 @@
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM3.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.3 | BrcmPatchRAM3.kext</string>
+                    <string>V2.6.4 | BrcmPatchRAM3.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -431,7 +431,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.3 | BlueToolFixup.kext</string>
+                    <string>V2.6.4 | BlueToolFixup.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1216,6 +1216,7 @@
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <array>
                     <string>rtc-blacklist</string>
+                    <string>opencore-version</string>
                 </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <array>
