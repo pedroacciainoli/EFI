@@ -1,6 +1,7 @@
 # EFI-Ryzentosh- A320M GIGABYTE + Ryzen 5 2600 +  RX 6600 XT
 
-Monterey install with Zen Series CPU and A320M Gigabyte motherboard
+Sonoma install with Zen Series CPU and A320M Gigabyte motherboard 
+ALL 2.0 PORTS MAPED 
 
 ## Hardware - Hackintosh Config
 
@@ -14,8 +15,8 @@ Monterey install with Zen Series CPU and A320M Gigabyte motherboard
 | **Power Supply** | [ Fonte Gamemax GM500 500W, 80 Plus Bronze ]  |
 |                  |                                        |
 |    **SMBIOS**    | [ MacPro1,1 ]                          |
-|    **MacOS**     | [ Monterey ]                           |
-|   **Opencore**   | [ 0.7.9 ]                              |
+|    **MacOS**     | [ Sonoma ]                           |
+|   **Opencore**   | [ 1.0.1 ]                              |
 
 
 ## Bios Settings
@@ -23,14 +24,20 @@ Monterey install with Zen Series CPU and A320M Gigabyte motherboard
 |        Config         | Status      |
 |:---------------------:|------------ |
 |     **Fast Boot**     | [ Disable ] |
-|    **Secure Boot**    | [ Disable ] |
+|    **Secure Boot**    | [ Active ] |
 |        **CSM**        | [ Disable ] |
 | **Above 4G Decoding** | [ Disable ] |
 
 ## Boot Args
 
 `npci=0x2000`
+`agdpmod=pikera`
+`revpatch=sbvmm`
 
+
+## SecureBootModel
+
+`Disabled`
 
 
 ## Notes
